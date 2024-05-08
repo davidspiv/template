@@ -1,0 +1,40 @@
+[user]
+	name = $NAME
+	email = $EMAIL
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+[safe]
+	directory = C:/
+[alias]
+	staash = stash --all
+	blaame = blame -w -C -C -C
+[rerere]
+	enabled = true
+[color]
+	ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[diff]
+  	tool = vscode
+[difftool "vscode"]
+  	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  	tool = vscode
+[mergetool "vscode"]
+  	cmd = code --wait $MERGED
+[credential]
+  	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-wincred.exe
