@@ -40,7 +40,7 @@
   "editor.fontSize": 22,
   "workbench.colorTheme": "Material Theme Palenight",
 
-  //For VSCode running in WSL2 
+  //For VSCode running in WSL2
   "liveServer.settings.CustomBrowser": "wslview",
   "workbench.startupEditor": "none",
 
