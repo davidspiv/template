@@ -1,0 +1,49 @@
+{
+  //Simplify
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.stickyScroll.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+
+  //Utility
+  "debug.toolBarLocation": "commandCenter",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.smoothScrolling": true,
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.sortOrder": "type",
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.mergeEditor": true,
+  "git.openRepositoryInParentFolders": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[plaintext]": {
+    "editor.unicodeHighlight.invisibleCharacters": true
+  },
+
+  //Style
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 22,
+  "workbench.colorTheme": "Material Theme Palenight",
+
+  //For VSCode running in WSL2 
+  "liveServer.settings.CustomBrowser": "wslview",
+  "workbench.startupEditor": "none",
+
+  //Dictionary
+  "cSpell.userWords": ["autofetch", "Spivack"]
+}
